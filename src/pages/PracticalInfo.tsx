@@ -1,5 +1,5 @@
 import React from 'react';
-import {ParkingCircle, Shirt, BedDouble, Smartphone, Gift, Camera } from 'lucide-react';
+import {ParkingCircle, Shirt, BedDouble, Smartphone, Gift, Camera, Baby } from 'lucide-react';
 
 interface InfoSectionProps {
   title: string;
@@ -48,6 +48,11 @@ const PracticalInfo: React.FC = () => {
           <p className="text-justify">Pour nos invités venant de loin, voici quelques suggestions d'hôtels et chambres d'hôtes à proximité :</p>
           <p><a href="https://docs.google.com/document/d/1WyJ3RsI4EzwoUoMc7C8m4Uxt3GWs_eqd8qXSb2eOVKA/edit?usp=sharing" target='_blank' rel="noopener noreferrer" className="text-primary hover:underline">Liste des hébergements</a></p>
           <p className="text-justify">Nous vous conseillons de réserver rapidement.</p>
+        </InfoSection>
+        <InfoSection title="Enfants" icon={Baby} className="md:col-span-2">
+          <p className="text-justify">Les enfants sont bien évidemment les bienvenus.
+          Nous attirons toutefois votre attention sur le fait qu'aucun service de baby-sitting ne sera prévu : les enfants resteront donc sous la responsabilité et la surveillance de leurs parents tout au long de l'événement.</p>
+          <p className="text-justify">Le domaine est vaste et comprend notamment des espaces extérieurs ainsi qu'un lac accessible. Pour que chacun puisse profiter pleinement de la fête en toute sérénité, nous comptons sur votre vigilance.</p>
         </InfoSection>
         <InfoSection title="Parking" icon={ParkingCircle} className="md:col-span-2">
           <p className="text-justify">Un parking sera disponible au lieu de réception. Pour les cérémonies, nous vous recommandons de stationner sur le parking public situé en face de la mairie.

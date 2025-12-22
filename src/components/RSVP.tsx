@@ -204,7 +204,7 @@ const RSVP: React.FC = () => {
 
       <div className="w-full max-w-md mx-auto bg-white p-6 sm:p-8 rounded-lg shadow-lg">
         <p className="text-lg text-foreground/90 mb-8">
-          Merci de nous confirmer votre présence avant le 15 avril 2026.
+          Merci de nous confirmer votre présence avant le 30 avril 2026.
         </p>
 
         {/* Recherche */}

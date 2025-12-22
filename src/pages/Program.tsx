@@ -37,6 +37,14 @@ const EventItem: React.FC<EventItemProps> = ({ time, title, description, locatio
 
 const events = [
     {
+      time: "13:00",
+      title: "Rendez-vous à la mairie",
+      description: "Rendez-vous à la mairie de Saint-Sulpice-la-Pointe pour la cérémonie civile.",
+      location: "Mairie de Saint-Sulpice-la-Pointe, Parc Georges Spénale, 4 Av. Vialas, 81370 Saint-Sulpice-la-Pointe",
+      locationLink: "https://www.google.com/maps/place/H%C3%B4tel+de+Ville/@43.7756313,1.6833695,17z/data=!3m1!4b1!4m6!3m5!1s0x12ae832be28fbba3:0x6a61d6f6b2c0624!8m2!3d43.7756313!4d1.6833695!16s%2Fg%2F11j0_dxpmx?entry=ttu&g_ep=EgoyMDI1MDUyMS4wIKXMDSoASAFQAw%3D%3D", // Replace with actual Google Maps link
+      icon: MapPin,
+    },
+    {
       time: "13:30",
       title: "Cérémonie Civile",
       description: "Union à la mairie de Saint-Sulpice-la-Pointe.",
